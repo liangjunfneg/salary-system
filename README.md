@@ -2,7 +2,7 @@
 # 工资管理系统 (Salary Management System)
 
 ## 项目概述
-这是一个基于React+TypeScript(前端)和Spring Boot(后端)的工资管理系统，采用MySQL作为数据库。系统实现了员工信息管理、工资计算与发放、奖惩记录、部门管理等核心功能，支持管理员和普通员工两种角色。
+这是一个基于React+TypeScript(前端)和Spring Boot(后端)的工资管理系统，采用MySQL9.0作为数据库。系统实现了员工信息管理、工资计算与发放、奖惩记录、部门管理等核心功能，支持管理员和普通员工两种角色。
 管理账号：admin 密码：123456，普通员工：lisi 密码：123456
 附：完整版的软件工程代码开发文档，包含详细的需求分析、概要设计详细设计等和详细的软件测试部分，包括功能测试（黑白盒）和性能测试等，性能部分使用JMeter进行。bro比较忙，其余不完善部分后面有需要再好好完善。
 ## 功能特性
@@ -59,15 +59,14 @@
 | `reward_punishment` | 奖惩记录 |
 | `user` | 系统用户 |
 
-## 安装与运行
-
 ### 前端运行
 ```bash
 cd d:\web系统开发\react\salary
 npm install
 npm start
 
-项目截图：
+
+### 项目截图：
 <img width="1078" alt="屏幕截图 2025-05-28 121109" src="https://github.com/user-attachments/assets/2dbee606-ab75-4815-acbe-3b411dc6a7b5" />
 <img width="1076" alt="屏幕截图 2025-05-28 104830" src="https://github.com/user-attachments/assets/5b462e54-e1ad-40b4-a8e1-96d1442b516a" />
 <img width="1078" alt="屏幕截图 2025-05-28 121109" src="https://github.com/user-attachments/assets/fecba899-2c98-483c-9a77-abac7568a27a" />
